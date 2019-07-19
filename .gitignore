@@ -1,5 +1,5 @@
 .env
-test_output/*
+tests_output/*
 screenshots/*
 
 # Created by https://www.gitignore.io/api/node,macos,visualstudiocode
