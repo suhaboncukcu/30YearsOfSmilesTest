@@ -15,6 +15,7 @@
         "acceptSslCerts" : true,
         "chromeOptions": {
           "args": [
+            "headless",
             "disable-dev-shm-usage",
             "no-sandbox",
             "kiosk",

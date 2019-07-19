@@ -28,6 +28,7 @@ let smiles = {
         .waitForElementVisible('.btn-form-submit')
         .click('.btn-form-submit')
         .pause(45000)
+        .saveScreenshot('./screenshots/' + (new Date()).getDay() + '.jpg')
         .end();
     }
     
