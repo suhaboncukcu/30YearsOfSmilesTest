@@ -1,0 +1,40 @@
+{
+  "src_folders" : ["tests"],
+
+  "webdriver" : {
+    "start_process": true,
+    "server_path": "node_modules/.bin/chromedriver",
+    "port": 9515
+  },
+
+  "test_settings" : {
+    "default" : {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true,
+        "chromeOptions": {
+          "args": [
+            "disable-dev-shm-usage",
+            "no-sandbox",
+            "kiosk",
+            "window-size=1920,1080",
+            "window-position=0,0",
+            "start-fullscreen",
+            "no-proxy-server",
+            "no-default-browser-check",
+            "no-displaying-insecure-content",
+            "no-experiments",
+            "no-first-run",
+            "disable-boot-animation",
+            "disable-default-apps",
+            "disable-extensions",
+            "disable-translate",
+            "enable-gpu",
+            "disable-infobars"
+          ]
+        }
+      }
+    }
+  }
+}

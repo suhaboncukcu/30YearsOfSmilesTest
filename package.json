@@ -1,0 +1,17 @@
+{
+  "name": "30yearsofsmiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/nightwatch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^75.1.0"
+  },
+  "dependencies": {
+    "nightwatch": "^1.1.13"
+  }
+}
